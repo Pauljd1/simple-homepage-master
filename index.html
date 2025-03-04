@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+    <title>Simple Homepage - Alarado | devChallenges.io</title>
+  </head>
+  <body>
+    <nav>
+      <img id="logo" src="resources/logo-light.svg" alt="logo" class="logo" />
+
+      <div class="nav-items">
+        <img
+          src="./resources/hamburger-button.svg"
+          alt="Menu"
+          class="menu-icon"
+          onclick="toggleMenu()"
+        />
+        <a href="#" class="about-us">About us</a>
+        <a href="#">Product</a>
+        <a href="#">Resource</a>
+        <a href="#">Contact</a>
+      </div>
+      <button id="theme-switch">
+        <img id="moon-icon" src="resources/Moon_fill.svg" alt="Moon" />
+        <img
+          id="sun-icon"
+          src="resources/Sun_fill.svg"
+          alt="Sun"
+          style="display: none"
+        />
+      </button>
+    </nav>
+    <div class="main-content">
+      <div class="left-side">
+        <p class="left-top-p">😎 Simple way to communicate</p>
+        <h1 class="left-main-header">Actions for Accessibility in Design</h1>
+        <h2 class="left-sub-header">
+          The fastest way to build and deploy websites with reusable components.
+        </h2>
+        <div class="left-buttons">
+          <button class="get-started">GET STARTED</button>
+          <a href="#" class="demo-link">Get live demo</a>
+        </div>
+        <div class="ticks">
+          <p>
+            <img src="resources/Done_ring_round_fill.svg" alt="light-tick" /> No
+            credit card required
+          </p>
+          <p>
+            <img
+              src="resources/Done_ring_round_fill.svg"
+              alt="light-tick"
+              class="software"
+            />
+            No software to install
+          </p>
+        </div>
+      </div>
+      <div class="right-side">
+        <img
+          src="resources/hero-image-simple-homepage.png"
+          alt="hero-image"
+          class="hero-image"
+        />
+      </div>
+    </div>
+    <footer class="author-info">
+      Coded by
+      <a
+        href="https://www.linkedin.com/in/paul-davidson-4641b4307"
+        target="_blank"
+      >
+        Paul Davidson</a
+      >
+      | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
